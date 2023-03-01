@@ -1,0 +1,42 @@
+.cardBox {
+    max-width: 900px;
+    border-radius: 18px;
+}
+.m5 {
+    padding-top: 90px;
+}
+.btn1 {
+    color: black;
+    background-color: rgb(237, 238, 242);
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    text-align: left;
+    outline: none;
+    padding: 10px;
+}
+.btn1:hover, .btn1:focus {
+    color: black;
+    background-color: #CED0D9;
+    box-shadow: none;
+}
+.btn2 {
+    color: white;
+    background-color: #E8006F;
+    border: none;
+    border-radius: 16px;
+    font-size: 20px;
+    text-align: left;
+    outline: none;
+    padding: 10px;
+}
+.btn2:hover, .btn2:focus {
+    color: white;
+    background-color: #CF0063;
+    box-shadow: none;
+}
+@media (max-width: 500px){
+    .accessBtn {
+        width: 95%;
+    }
+}

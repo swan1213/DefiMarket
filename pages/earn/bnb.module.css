@@ -1,0 +1,50 @@
+.cardBox {
+    max-width: 500px;
+    border-radius: 18px;
+}
+
+.buttons {
+    border: none;
+    background: none;
+}
+
+.h2 {
+    margin: 40px 0 20px 0;
+}
+
+.p2 {
+    margin-bottom: 56px;
+    font-size: 16px;
+}
+.accessBtn {
+    height: 50px;
+    width: 250px;
+    margin-bottom: 24px;
+    border-radius: 18px;
+}
+
+.greyTxt {
+    color: grey;
+    margin-bottom: 56px;
+}
+.boldTxt {
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+.m2 {
+    margin-bottom: 0px;
+}
+.m5 {
+    padding-top: 90px;
+}
+
+.cards {
+    border-radius: 18px !important;
+}
+
+@media (max-width: 500px){
+    .accessBtn {
+        width: 95%;
+    }
+}

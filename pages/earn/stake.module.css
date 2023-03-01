@@ -1,0 +1,54 @@
+.cardBox {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* Card look */
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 18px;
+    /* Round corners */
+    /* border-left: 5px solid #5f37ff; */
+    margin: 10px;
+    padding: 20px 10px;
+    border: none;
+    /* Blue left border */
+}
+
+.cardBox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardBox:hover .BtnStake {
+    display: block !important;
+}
+
+.cardBox:hover .hideTxt {
+    display: none !important;
+}
+
+.context {
+    color: grey;
+}
+
+.percent {
+    font-weight: bold;
+}
+
+.context, .percent {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.BtnStake {
+    border-radius: 16px;
+    height: 40px;
+    display: none;
+}
+.txtVersion {
+    margin-left: 20px;
+    color: #356DF3;
+    font-weight: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.txtVersion:hover {
+    color: black;
+}
