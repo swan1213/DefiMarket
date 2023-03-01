@@ -1,0 +1,21 @@
+.wallet_button {
+    background-color: white;
+    font-weight: bold;
+    font-size: 10 !important;
+    padding: 5px 10px;
+    border-radius: 25px !important;
+    border: none;
+    color: black;
+}
+
+.wallet_button:hover {
+    background-color: rgb(241, 237, 237);
+}
+
+.wallet_button::after {
+    background-color: rgb(241, 237, 237);
+}
+
+.m2 {
+    margin: 0px 200px;
+}

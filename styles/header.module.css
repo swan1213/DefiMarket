@@ -1,0 +1,21 @@
+.container *{
+    margin-left: 20px;
+}
+.container {
+    margin-top: 10px;
+}
+.hp {
+    padding-top: 6px;
+}
+.hBtn {
+    color: white;
+    background-color: #356DF3;
+    text-decoration: none;
+    padding: 5px 20px;
+    align-self: center;
+    border-radius: 10px;
+}
+.hBtn:hover {
+    background-color: #2A5BD1;
+    color: white;
+}
